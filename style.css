@@ -3,16 +3,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
 }
 
 .meta{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 15px;
 }
 
-.img{
+img{
     width: 200px;
-    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.meta:hover{
+    transition: .5s;
+    transform: scale(1.5);
 }
