@@ -22,3 +22,10 @@ img{
     transition: .5s;
     transform: scale(1.5);
 }
+h2{
+    width: 400px;
+}
+
+p{
+    width: 400px;
+}
