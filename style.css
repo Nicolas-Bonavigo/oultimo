@@ -1,10 +1,32 @@
+:root{
+    --cor-principal:#FF0052 ;
+    --cor-secundaria:#FFD400 ;
+    --cor-terciaria:#00C68D ;
+    --cor-detalhe:#0055DA ;
+
+}
+
+body{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url()
+
+}
 
 .secao-metas{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    background-color: var(--cor-terciaria);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px var(--cor-secundaria)
 }
 
 .meta{
@@ -27,8 +49,19 @@ img{
     transition: .5s;
     transform: scale(1.5);
 }
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(45deg, #740000, #ff6e6e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
 h2{
     width: 400px;
+    background: linear-gradient(45deg, --cor-principal , #ff6e6e);
 }
 
 p{
@@ -48,15 +81,7 @@ footer {
     align-items: center;
 }
 
-h1{
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    color: #555;
-    margin-top: 40px;
-}
+
 
 @media (max-width: 1000px){
     .meta{
@@ -72,3 +97,4 @@ h1{
 footer p { 
     text-align: center;
 }
+
