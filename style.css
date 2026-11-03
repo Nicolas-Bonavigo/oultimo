@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image:url()
+    background-image:url("botar imagem aqui!");
 
 }
 
@@ -24,9 +24,9 @@ body{
     flex-direction: column;
     width: 80%;
     margin: auto;
-    background-color: var(--cor-terciaria);
+    background-color: rgb(148, 0, 0);
     border-radius: 15px;
-    box-shadow: 10px 10px 10px var(--cor-secundaria)
+    box-shadow: 10px 10px 10px yellow
 }
 
 .meta{
@@ -69,7 +69,7 @@ p{
 }
 
 footer {
-    background-color: grey;
+    background-color: rgb(114, 0, 0);
     color: white;
     text-align: center;
     padding: 20px 0px;
