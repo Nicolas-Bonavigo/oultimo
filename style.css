@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image:url();
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSK3uOTUZhVlm8-xdCoaIM06n2Fy-Tqvka1hOXaoa0Ug&s=10);
 
 }
 
@@ -26,7 +26,7 @@ body{
     margin: auto;
     background-color: rgb(148, 0, 0);
     border-radius: 15px;
-    box-shadow: 10px 10px 10px yellow
+    box-shadow: 10px 10px 10px rgb(85, 0, 0)
 }
 
 .meta{
@@ -43,8 +43,9 @@ img{
     width: 200px;
     padding-left: 15px;
     padding-right: 15px;
-    height: 200px;+
+    height: 200px;
 }
+
 .meta:hover{
     transition: .5s;
     transform: scale(1.5);
@@ -98,3 +99,20 @@ footer p {
     text-align: center;
 }
 
+.titulinho{
+    color: white;
+}
+
+ .secao-perfil, .perfil, .texto-perfil{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .perfil{
+    flex-direction: row;
+ }
+
+ .texto-perfil{
+    flex-direction: column;
+ }
